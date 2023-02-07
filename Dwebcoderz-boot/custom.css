@@ -1,0 +1,11 @@
+.ratio{position: relative;
+width: 75%;
+margin: auto;}
+video{
+    display: block;
+    margin: auto;
+}
+
+.container-fluid .text-center .row{
+    justify-content: space-evenly;
+}

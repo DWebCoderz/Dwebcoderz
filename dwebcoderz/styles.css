@@ -1,0 +1,89 @@
+nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: #333;
+}
+nav img{
+  width:150px;
+}
+li {
+  float: left;
+  background-color: #333;
+}
+
+li a {
+font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #fff;
+  color: black;
+}
+h1{
+  text-align: center;
+}
+figure{
+  text-align: center;
+}
+figure img{
+  width: 70%;
+}
+figure, iframe{
+  margin-top: 1em;
+}
+button{
+  float: right;
+}
+section{
+  display: flex;
+justify-content: space-around;
+
+
+}
+section article{
+  margin-top: 1em;
+  width : 30%;
+  min-height: 200px;
+  border: #111 1px solid;
+  border-radius: 10%;
+  text-align: center;
+}
+article p{
+  margin: 1em;
+}
+.video{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width:70%;
+  margin: auto;
+}
+video,iframe{
+  width: 90%;
+}
+form{
+  text-align: center;
+}
+footer{
+  margin-top: 1em;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+    text-align: center;
+    align-items: stretch;
+}

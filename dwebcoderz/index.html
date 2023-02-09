@@ -20,19 +20,24 @@
             <!-- menu navigation à gauche -->
             <ul>
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="#accueil">Accueil</a>
+                    <button onclick="accueil()">Click me</button>
                 </li>
                 <li>
                     <a href="#">Nouveautés</a>
+                    <button onclick="news()">Click me</button>
                 </li>
                 <li>
                     <a href="#">Promotions</a>
+                    <button onclick="promo()">Click me</button>
                 </li>
                 <li>
                     <a href="#">Tous nos produits</a>
+                    <button onclick="product()">Click me</button>
                 </li>
                 <li>
-                    <a href="./contact.html">Contact</a>
+                    <a href="#contact">Contact</a>
+                    <button onclick="contact()">Click me</button>
                 </li>
             </ul>
             <!-- menu compte à droite-->
@@ -45,6 +50,7 @@
     </header>
 
     <main>
+        <!--page Accueil-->
         <h1>Vive le dropshipping</h1>
         <!-- produit en avant -->
         <div id="accueil">
@@ -71,6 +77,29 @@
                     allowfullscreen></iframe>
                 <em>Intégration d'une iframe</em>
             </div>
+        </div>
+        <!--page contact-->
+        <div id="contact">
+            <h1>Formulaire de Contact</h1>
+            <form method="POST">
+                <div>
+                    <label>Your name:</label><br />
+                    <input /><br />
+                    <span></span>
+                </div>
+                <div>
+                    <label>Your email:</label><br />
+                    <input /><br />
+                    <span></span>
+                </div>
+                <div>
+                    <label>Your message:</label><br />
+                    <textarea></textarea><br />
+                    <span></span>
+                </div>
+
+                <input id="submit_button" type="submit" value="Send email" />
+            </form>
         </div>
         
 
@@ -126,6 +155,7 @@
         <p>&copy;DwebCoderz 2023</p>
 
     </footer>
+    <script src="dwebcoderz.js"></script>
 </body>
 
 </html>

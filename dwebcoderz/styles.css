@@ -87,3 +87,6 @@ footer{
     text-align: center;
     align-items: stretch;
 }
+#contact{
+  display: none;
+}
